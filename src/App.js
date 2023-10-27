@@ -1,16 +1,17 @@
 import "./App.css";
 import Sidebar from "./Sidebar";
+import Feed from "./Feed";
 
 function App() {
   return (
     // BEM - className ce biti malim slovima
     <div className="app">
-      <h1>X clone</h1>
 
       {/* Sidebar */}
       <Sidebar />
 
       {/* Feed */}
+      <Feed />
 
       {/* Desni blok */}
 
